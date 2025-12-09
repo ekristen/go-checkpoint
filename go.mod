@@ -1,4 +1,4 @@
-module github.com/hashicorp/go-checkpoint
+module github.com/ekristen/go-checkpoint
 
 go 1.23.0
 
