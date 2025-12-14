@@ -112,7 +112,7 @@ func ReportRequest(r *ReportParams) (*http.Request, error) {
 		return nil, err
 	}
 	req.Header.Set("Accept", "application/json")
-	req.Header.Set("User-Agent", "HashiCorp/go-checkpoint")
+	req.Header.Set("User-Agent", "ekristen.dev/go-checkpoint")
 
 	return req, nil
 }

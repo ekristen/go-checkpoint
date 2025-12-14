@@ -24,9 +24,9 @@ func TestCheck(t *testing.T) {
 		Product:             "test",
 		CurrentVersion:      "1.0.2",
 		CurrentReleaseDate:  0,
-		CurrentDownloadURL:  "http://www.hashicorp.com/",
-		CurrentChangelogURL: "http://www.hashicorp.com/",
-		ProjectWebsite:      "http://www.hashicorp.com",
+		CurrentDownloadURL:  "http://ekristen.dev/",
+		CurrentChangelogURL: "http://ekristen.dev/",
+		ProjectWebsite:      "http://ekristen.dev",
 		Outdated:            true,
 		Alerts:              []*CheckAlert{},
 	}
@@ -36,9 +36,9 @@ func TestCheck(t *testing.T) {
 		"product": "test",
 		"current_version": "1.0.2",
 		"current_release_date": 0,
-		"current_download_url": "http://www.hashicorp.com/",
-		"current_changelog_url": "http://www.hashicorp.com/",
-		"project_website": "http://www.hashicorp.com",
+		"current_download_url": "http://ekristen.dev/",
+		"current_changelog_url": "http://ekristen.dev/",
+		"project_website": "http://ekristen.dev",
 		"outdated": true,
 		"alerts": []
 	}`
@@ -122,9 +122,9 @@ func TestCheck_cache(t *testing.T) {
 		Product:             "test",
 		CurrentVersion:      "1.0.2",
 		CurrentReleaseDate:  0,
-		CurrentDownloadURL:  "http://www.hashicorp.com/",
-		CurrentChangelogURL: "http://www.hashicorp.com/",
-		ProjectWebsite:      "http://www.hashicorp.com",
+		CurrentDownloadURL:  "http://ekristen.dev/",
+		CurrentChangelogURL: "http://ekristen.dev/",
+		ProjectWebsite:      "http://ekristen.dev",
 		Outdated:            true,
 		Alerts:              []*CheckAlert{},
 	}
@@ -134,9 +134,9 @@ func TestCheck_cache(t *testing.T) {
 		"product": "test",
 		"current_version": "1.0.2",
 		"current_release_date": 0,
-		"current_download_url": "http://www.hashicorp.com/",
-		"current_changelog_url": "http://www.hashicorp.com/",
-		"project_website": "http://www.hashicorp.com",
+		"current_download_url": "http://ekristen.dev/",
+		"current_changelog_url": "http://ekristen.dev/",
+		"project_website": "http://ekristen.dev",
 		"outdated": true,
 		"alerts": []
 	}`
@@ -178,9 +178,9 @@ func TestCheck_cacheNested(t *testing.T) {
 		Product:             "test",
 		CurrentVersion:      "1.0.2",
 		CurrentReleaseDate:  0,
-		CurrentDownloadURL:  "http://www.hashicorp.com/",
-		CurrentChangelogURL: "http://www.hashicorp.com/",
-		ProjectWebsite:      "http://www.hashicorp.com",
+		CurrentDownloadURL:  "http://ekristen.dev/",
+		CurrentChangelogURL: "http://ekristen.dev/",
+		ProjectWebsite:      "http://ekristen.dev",
 		Outdated:            true,
 		Alerts:              []*CheckAlert{},
 	}
@@ -190,9 +190,9 @@ func TestCheck_cacheNested(t *testing.T) {
 		"product": "test",
 		"current_version": "1.0.2",
 		"current_release_date": 0,
-		"current_download_url": "http://www.hashicorp.com/",
-		"current_changelog_url": "http://www.hashicorp.com/",
-		"project_website": "http://www.hashicorp.com",
+		"current_download_url": "http://ekristen.dev/",
+		"current_changelog_url": "http://ekristen.dev/",
+		"project_website": "http://ekristen.dev",
 		"outdated": true,
 		"alerts": []
 	}`
@@ -229,9 +229,9 @@ func TestCheckInterval(t *testing.T) {
 		Product:             "test",
 		CurrentVersion:      "1.0.2",
 		CurrentReleaseDate:  0,
-		CurrentDownloadURL:  "http://www.hashicorp.com/",
-		CurrentChangelogURL: "http://www.hashicorp.com/",
-		ProjectWebsite:      "http://www.hashicorp.com",
+		CurrentDownloadURL:  "http://ekristen.dev/",
+		CurrentChangelogURL: "http://ekristen.dev/",
+		ProjectWebsite:      "http://ekristen.dev",
 		Outdated:            true,
 		Alerts:              []*CheckAlert{},
 	}
@@ -246,9 +246,9 @@ func TestCheckInterval(t *testing.T) {
 		"product": "test",
 		"current_version": "1.0.2",
 		"current_release_date": 0,
-		"current_download_url": "http://www.hashicorp.com/",
-		"current_changelog_url": "http://www.hashicorp.com/",
-		"project_website": "http://www.hashicorp.com",
+		"current_download_url": "http://ekristen.dev/",
+		"current_changelog_url": "http://ekristen.dev/",
+		"project_website": "http://ekristen.dev",
 		"outdated": true,
 		"alerts": []
 	}`

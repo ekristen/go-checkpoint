@@ -61,7 +61,7 @@ type CheckParams struct {
 	CacheDuration time.Duration
 
 	// Force, if true, will force the check even if CHECKPOINT_DISABLE
-	// is set. Within HashiCorp products, this is ONLY USED when the user
+	// is set. Within ekristen.dev tools, this is ONLY USED when the user
 	// specifically requests it. This is never automatically done without
 	// the user's consent.
 	Force bool
@@ -150,7 +150,7 @@ func Check(p *CheckParams) (*CheckResponse, error) {
 		return nil, err
 	}
 	req.Header.Set("Accept", "application/json")
-	req.Header.Set("User-Agent", "HashiCorp/go-checkpoint")
+	req.Header.Set("User-Agent", "ekristen.dev/go-checkpoint")
 
 	client := p.HTTPClient
 	if client == nil {
